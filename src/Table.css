@@ -1,0 +1,69 @@
+.table {
+  margin-top: 20px;
+  height: 500px;
+  overflow: scroll;
+  color: #6a5d5d;
+}
+
+.table__table {
+  width: 100%;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: "\25bc";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: "\25b2";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table__column {
+  display: flex;
+  width: 160px;
+}
+
+.table__today {
+  font-size: 1rem;
+}
+.table__data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.MuiSvgIcon-root {
+  font-size: 1rem !important;
+  padding-right: 2px;
+}
+
+.table__flag {
+  padding: 0px !important;
+  height: 3rem;
+  width: 4.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  border: 0.5px solid black;
+}
+
+.table tr {
+  background-color: #f3f2f8;
+}

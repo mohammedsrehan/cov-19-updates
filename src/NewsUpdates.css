@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+  margin: 5%;
+}
+
+.newsUpdates {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.newsUpdates__card {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .newsUpdates__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .newsUpdates__card {
+    width: 48%;
+  }
+}
